@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+require 'downrightnow/util/command_line'
+DownRightNow::Util::ComandLine.new.exec
