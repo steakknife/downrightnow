@@ -7,9 +7,9 @@ module DownRightNow
       def exec
 	begin
 	  opts = Trollop::options do
-	    version "DownRightNow (tm) unofficial ruby utility #{version}  (c) 2011 Barry Allard"
+	    version "DownRightNow (tm) unofficial ruby utility #{::DownRightNow.version}  (c) 2011 Barry Allard"
 	    banner <<-EOS
-	DownRightNow (tm) unofficial ruby utility #{version}  (c) 2011 Barry Allard
+	DownRightNow (tm) unofficial ruby utility #{::DownRightNow.version}  (c) 2011 Barry Allard
 
 	    EOS
 	    opt :verbose,         "Verbose display", :default => false
