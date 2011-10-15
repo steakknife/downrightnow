@@ -9,7 +9,7 @@ require 'open-uri'
 require 'time'
 
 module DownRightNow
-  VERSION = '0.2.0'
+  VERSION = '0.2.1'
 
   def DownRightNow.version
     VERSION
