@@ -20,6 +20,8 @@ Gem::Specification.new do |gem|
   gem.executables      = "downrightnow"
   gem.require_paths    = ['lib']
 
-  gem.add_dependency 'nokogiri', '>= 1.4.0'
-  gem.add_dependency 'trollop', '>= 1.16'
+  gem.add_dependency 'nokogiri'
+  gem.add_dependency 'trollop'
+
+  gem.add_development_dependency 'bundler'
 end
