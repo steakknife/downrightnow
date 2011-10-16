@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
 
 
   # Man files are required because they are ignored by git
-  gem.files            = Dir['lib/**/*.rb', 'bin/*']
+  gem.files            = Dir['lib/**/*.rb', 'bin/*'] + %W{LICENSE README.md}
   gem.test_files       = `git ls-files -- {test,spec,features}/*`.split("\n").select { |d| d =~ %r{^(README|bin/|data/|ext/|lib/|spec/|test/)} }
   gem.executables      = "downrightnow"
   gem.require_paths    = ['lib']
