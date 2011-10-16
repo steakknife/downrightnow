@@ -9,12 +9,6 @@ require 'open-uri'
 require 'time'
 
 module DownRightNow
-  VERSION = '0.2.1'
-
-  def DownRightNow.version
-    VERSION
-  end
-
   class DownRightNow
     # The original document received and parsed.
     attr_reader :doc

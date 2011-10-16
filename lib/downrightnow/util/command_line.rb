@@ -1,4 +1,5 @@
 require 'downrightnow'
+require 'downrightnow/version'
 require 'trollop'
 
 module DownRightNow
